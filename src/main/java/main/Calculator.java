@@ -5,14 +5,14 @@ public class Calculator {
     public static void main(String[] args)
     {
         System.out.println("Enter first and second number:");
-        Scanner in= new Scanner(System.in);
+        Scanner inp= new Scanner(System.in);
         int num1,num2;
-        num1 = in.nextInt();
-        num2 = in.nextInt();
+        num1 = inp.nextInt();
+        num2 = inp.nextInt();
         int ans;
         System.out.println("Enter your selection: 1 for Addition, 2 for substraction 3 for Multiplication and 4 for division:");
         int choose;
-        choose = in.nextInt();
+        choose = inp.nextInt();
         switch (choose){
         case 1:
             System.out.println(add( num1,num2));
