@@ -4,7 +4,7 @@ import java.util.*;
 public class Calculator {
     public static void main(String[] args)
     {
-        System.out.println("Enter first and second number:");
+        System.out.println("Enterfirst and second number:");
         Scanner inp= new Scanner(System.in);
         int num1,num2;
         num1 = inp.nextInt();
